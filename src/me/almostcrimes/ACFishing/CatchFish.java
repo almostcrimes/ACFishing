@@ -9,7 +9,6 @@ import org.bukkit.event.player.PlayerPickupItemEvent;
 
 public class CatchFish implements Listener 
 {
-
 	private boolean caughtFish = false;
 
 	public void setCaughtFish(boolean caughtFish) 

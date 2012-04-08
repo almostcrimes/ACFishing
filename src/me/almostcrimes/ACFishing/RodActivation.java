@@ -11,7 +11,6 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class RodActivation implements Listener
 {
-
 	private ACFishing plugin;
 
 	public RodActivation(ACFishing instance) 
@@ -34,7 +33,6 @@ public class RodActivation implements Listener
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent event) 
 	{
-
 		if (!(event.getAction().equals(Action.RIGHT_CLICK_AIR))) 
 		{
 			return;
@@ -44,7 +42,6 @@ public class RodActivation implements Listener
 
 		if (fishingRod == Material.FISHING_ROD) 
 		{
-
 			if (missUse.containsKey(player)) 
 			{
 				missUse.remove(player);
@@ -77,5 +74,4 @@ public class RodActivation implements Listener
 			}
 		}
 	}
-
 }

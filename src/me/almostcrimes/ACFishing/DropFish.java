@@ -9,7 +9,6 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 
 public class DropFish implements Listener 
 {
-
 	private boolean dropedFish = false;
 
 	// method for the reset timer to reset dropedFish to false.
