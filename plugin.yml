@@ -1,0 +1,6 @@
+name: ACFishing
+main: me.almostcrimes.ACFishing.ACFishing
+version: 1.0
+description: >
+             ACFishing - Enhanced fishing by almostcrimes
+commands:
