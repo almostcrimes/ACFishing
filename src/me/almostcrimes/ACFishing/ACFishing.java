@@ -6,7 +6,7 @@ import java.util.TimerTask;
 import java.util.logging.Logger;
 import org.bukkit.entity.*;
 import org.bukkit.ChatColor;
-import org.bukkit.World;
+//import org.bukkit.World;
 //import org.bukkit.event.Event;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
